@@ -1,1 +1,396 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+@font-face
+{    
+   font-family: 'Futura';
+   src: url('./myfonts/FuturaLT-Book.ttf')  format('truetype');
+}
+@font-face
+{
+   font-family: 'Futura_Bold';
+   src: url('./myfonts/FuturaLT-Bold.ttf')  format('truetype');
+}
+@font-face
+{
+   font-family: 'Hydro';
+   src: url('./myfonts/SuperMario256.ttf')  format('truetype');
+}
+
+
+
+.footer{
+   
+   background: #000000;
+   padding-left: 50px;
+   padding-right: 51px;
+   width: 100%; 
+   display: inline-block;
+  
+}
+
+.musicfooter{
+   background: #000000;
+   width: 100%; 
+   position: absolute;
+   bottom: 0;
+ 
+
+ 
+
+}
+.footer1{
+   
+   background: #000000;
+   padding-left: 50px;
+   padding-right: 51px;
+   width: 100%; 
+  
+  
+}
+
+
+#bio{
+   background-image: linear-gradient(45deg,  #22b9ff, #00ffb3);
+   position: absolute;
+   top: 100px;
+   border-style: groove;
+   border-radius: 2%;
+  
+
+
+}
+
+#pic{
+   height: 85%;
+   width: 85%;
+   margin-left: 60%;
+   margin-top: 20%;
+   margin-bottom: 40px;
+   padding:1px;
+   border:1px solid #021a40;
+   border-radius: 1%;
+   background-color: lightblue;
+}
+
+#imgdiv{
+   width: 25%;
+
+ 
+}
+
+
+.fbbutton{
+   padding: 8px 8px 8px 32px;
+   font-family: Arial, Verdana;   
+   background: #f0f0f0 url();
+   background-position: 8px 8px;
+   background-repeat: no-repeat;
+}​
+
+.imgdiv img {
+   display: block;
+   margin:  auto;
+}
+#bio{
+text-align: center;
+width: 280px;
+margin-left: 50%;
+margin-top: 50px;
+}
+
+.navbar, .navbar-brand{
+min-height: 60px;
+}
+
+.navgif{
+height: 80px; 
+width: 90%; 
+}
+
+
+
+
+.nav-link:hover{
+   background:rgb(28, 192, 241);
+   border: #021a40;
+   border-radius: 10px;
+   }
+
+#soundcloudplayer{
+   width: 510px;
+   margin-left: 50px;
+   margin-top: 75px;
+   float: left;
+  
+}
+
+#musicbody{
+   width: 100%;
+}
+#homebody{
+   width: 100%;
+}
+
+#musiccontent{
+width: 40%;
+margin-bottom: 300px;
+height: 300px;
+float: left;
+}
+
+#spotifyprofile{
+
+   float: right;
+
+}
+
+
+.myheader{
+margin-top: 40px;
+font-family: 'Hydro';
+color: rgb(28, 192, 241);
+background-image: linear-gradient(45deg,  #22b9ff, #00ffb3);
+position: center;
+background-clip: text;
+-webkit-text-fill-color: transparent; 
+-moz-text-fill-color: transparent;
+-webkit-text-stroke: 3px rgb(153, 0, 255);
+
+}
+
+#musicdiv{
+   position: absolute;
+   right: 0px;
+   width: 40%;
+   margin-top: 20px;
+   display: block;   
+
+}
+
+
+#socialdiv{
+   text-align: center;
+   margin-top: 100px;
+   
+}
+
+.iconimg{
+ margin-left: 100px;
+ border-style: groove;
+ border-color: #22b9ff;
+}
+
+@keyframes iconimg {
+   to {
+     -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+   }
+ }
+ .iconimg {
+   height:100px;
+   border-radius:100%;
+   object-fit: cover;
+   display: inline-block;
+   vertical-align: middle;
+   -webkit-transform: perspective(1px) translateZ(0);
+   transform: perspective(1px) translateZ(0);
+   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+ }
+ .iconimg:hover, .iconimg:focus, .iconimg:active {
+   background-image: url('https://media3.giphy.com/media/YRiD3ysJxvrNq15lC1/giphy.gif?cid=4d1e4f2993514b09215f1096483ff6f267faef8b3bea8bb6&rid=giphy.gif');
+   -webkit-animation-name: iconimg;
+   animation-name: iconimg;
+   -webkit-animation-duration: 0.3s;
+   animation-duration: 0.3s;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+   -webkit-animation-direction: alternate;
+   animation-direction: alternate;
+ }
+
+#socialdiv{
+
+   height: 400px
+}
+
+#buttondiv{
+   width: 150px;
+   float:right;
+   margin-top: 80px;
+   left: 200px
+  
+}
+.btndiv{
+   margin-top: 20px;
+   
+}
+
+
+.btn-primary, .btn-light:hover, .btn-primary:active, .btn-primary:visited {
+   background-color: #8064A2 !important;
+}
+
+
+.nav-link{      
+   font-size: medium;
+   border: #021a40;
+   min-height: 10px;
+   margin-top: 15px;
+   margin-right: 16px;
+   position:relative; 
+   left:185px;   
+}
+
+
+
+body
+{
+   background-image: url(https://media1.giphy.com/media/UuMFzCZMMsr4y88YNi/giphy.gif?cid=4d1e4f29fac0f798bd9250acefc70676480c3d327a81d8c1&rid=giphy.gif) ; 
+   font-family: 'Futura', sans-serif;
+   font-size: 14px;
+   font-weight: 400;	
+   color: #FFFFFF;
+} 
+div
+{
+   
+   position: relative;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+ul
+{
+   list-style: none;
+   margin-bottom: 0px;
+}
+
+
+
+.footer_lists
+{
+   width: 575px;
+   padding-top: 83px;
+   padding-bottom: 5px;
+}
+.footer_list
+{
+   width: calc(100% / 3);
+}
+.footer_list_title
+{
+   font-size: 24px;
+}
+.footer_list ul
+{
+   margin-top: 23px;
+}
+.footer_list ul li:not(:last-of-type)
+{
+   margin-bottom: 9px;
+}
+.footer_list ul li a
+{
+   font-size: 14px;
+   color: #6d6d6d;
+}
+.footer_list ul li a:hover
+{
+   color: #FFFFFF;
+}
+
+#title{
+ font-family: 'Hydro';
+ color: aqua;  
+}
+
+.newsletter_button
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 139px;
+   height: 50px;
+   background: rgb(28, 192, 241);
+   border: none;
+   outline: none;
+   cursor: pointer;
+   color: #FFFFFF;
+   font-size: 14px;
+}
+.newsletter_form
+{
+   display: block;
+   position: relative;
+   width: 100%;
+   margin-top: 30px;
+}
+.newsletter_input
+{
+   width: 100%;
+   height: 50px;
+   background: #ffffff;
+   border: none;
+   outline: none;
+   padding-left: 23px;
+}
+
+
+
+
+.box {
+   display: flex;
+}
+
+.box .inner {
+   width: 200px;
+   height: 70px;
+   line-height: 100px;
+   font-size: 2.8em;
+   font-family: Hydro;
+   font-weight: bold;
+   white-space: nowrap;
+   overflow: hidden;
+   position: relative;
+   left: 30px;
+}
+
+.box .inner:first-child {
+   background-color: rgb(30, 214, 247);
+   color: rgb(22, 255, 22);
+   transform-origin: right;
+   transform: perspective(100px) rotateY(-15deg);
+}
+
+.box .inner:last-child {
+   background-color: rgb(31, 221, 247);
+   color: rgb(255, 149, 255);
+   transform-origin: left;
+   transform: perspective(100px) rotateY(15deg);
+}
+
+.box .inner span {
+   position: absolute;
+   animation: marquee 5s linear infinite;
+}
+
+.box .inner:first-child span {
+   animation-delay: 2.5s;
+   left: -100%;
+}
+
+@keyframes marquee {
+   from {
+       left: 100%;
+   }
+
+   to {
+       left: -100%;
+   }
+}
+
+

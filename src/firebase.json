@@ -1,0 +1,19 @@
+{
+    "hosting": [
+      {
+        "target": "HydroBloo",
+        "public": "dist/HydroBloo",
+        "ignore": [
+          "firebase.json",
+          "**/.*",
+          "**/node_modules/**"
+        ],
+        "rewrites": [
+          {
+            "source": "**",
+            "destination": "/index.html"
+          }
+        ]
+      }
+    ]
+  }
